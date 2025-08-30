@@ -242,3 +242,51 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+## Part 1 – HRMS & Recruitment
+#Crested a workflow for Job applicant process which contains their state and transactional state
+    {
+        "doctype": "Workflow",
+        "filters": {
+            "name": ["in", ["Custom Recruitment Workflow"]]
+        }
+    },
+    {
+        "doctype": "Workflow State"
+    },
+    {
+        "doctype": "Workflow Action Master"
+    },
+# ends here
+#i've created a custom field in job applicant which is "Source of application" which is a select field contains "Linkedin, Job Portal, and referral" as demanded
+    {
+        "doctype": "Custom Field",
+        "filters": {
+            "dt": ["=", "Job Applicant"],
+            "fieldname": ["in", ["Job Applicant-custom_source_of_application"]]
+        }
+    },
+## in this i've created a report which contains 2 values "Source of application" and "Number of applicant"
+    {
+        "doctype": "Report",
+        "filters": {
+            "name": ["in", ["Applicants by Source"]]
+        }
+    },
+
+## created this for "Lifecycle State" which is Part 2 – Employee Lifecycle
+    {
+        "doctype": "Workflow", 
+        "filters": {
+            "name": ["in", ["Lifecycle State"]]
+        }
+    },
+
+
+    {
+        "doctype": "Print Format", 
+        "filters": [
+            ["name", "in", ["Experience Letter"]]
+        ]
+    }
+]

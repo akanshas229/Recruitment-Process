@@ -1,0 +1,128 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-03-18 10:45:12.136408",
+  "name": "Review",
+  "workflow_action_name": "Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-07-18 18:28:10.902320",
+  "name": "Left",
+  "workflow_action_name": "Left"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-07-22 10:09:01.371588",
+  "name": "Send for Review",
+  "workflow_action_name": "Send for Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-30 09:35:03.496649",
+  "name": "Assign To 2D Designer",
+  "workflow_action_name": "Assign To 2D Designer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-30 11:34:25.995921",
+  "name": "Job Opening",
+  "workflow_action_name": "Job Opening"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-30 11:35:01.016329",
+  "name": "Application",
+  "workflow_action_name": "Application"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-30 11:35:26.607681",
+  "name": "Screening",
+  "workflow_action_name": "Screening"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-30 11:35:46.136051",
+  "name": "Interview",
+  "workflow_action_name": "Interview"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-30 11:37:23.654236",
+  "name": "Offer",
+  "workflow_action_name": "Offer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-30 12:01:55.915048",
+  "name": "Move to Probation",
+  "workflow_action_name": "Move to Probation"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-30 12:02:58.623622",
+  "name": "Confirm Employee",
+  "workflow_action_name": "Confirm Employee"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-30 12:03:27.517195",
+  "name": "Exit Employe",
+  "workflow_action_name": "Exit Employe"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-04-02 15:16:30.603181",
+  "name": "Send Back to L1",
+  "workflow_action_name": "Send Back to L1"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-03-18 10:45:12.135202",
+  "name": "Reject",
+  "workflow_action_name": "Reject"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-04-02 15:07:33.799910",
+  "name": "Cancel",
+  "workflow_action_name": "Cancel"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-03-18 10:45:12.134185",
+  "name": "Approve",
+  "workflow_action_name": "Approve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-03-26 16:05:39.379521",
+  "name": "Send for Approval",
+  "workflow_action_name": "Send for Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-03-26 16:06:02.360551",
+  "name": "Changes Required",
+  "workflow_action_name": "Changes Required"
+ }
+]

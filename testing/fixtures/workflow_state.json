@@ -1,0 +1,317 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2025-03-18 10:45:12.116839",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-07-18 16:21:43.897796",
+  "name": "Pending for Modifications",
+  "style": "",
+  "workflow_state_name": "Pending for Modifications"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-07-18 18:28:22.309094",
+  "name": "Left",
+  "style": "",
+  "workflow_state_name": "Left"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 09:35:32.171573",
+  "name": "Assign To 2D Designer",
+  "style": "",
+  "workflow_state_name": "Assign To 2D Designer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:32:08.618115",
+  "name": "Job Opening",
+  "style": "",
+  "workflow_state_name": "Job Opening"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:32:25.273019",
+  "name": "Application",
+  "style": "",
+  "workflow_state_name": "Application"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:32:33.434489",
+  "name": "Screening",
+  "style": "",
+  "workflow_state_name": "Screening"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:32:40.868111",
+  "name": "Interview",
+  "style": "",
+  "workflow_state_name": "Interview"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:33:03.554046",
+  "name": "Offer",
+  "style": "",
+  "workflow_state_name": "Offer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:33:11.931737",
+  "name": "Hired",
+  "style": "",
+  "workflow_state_name": "Hired"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:34:15.473173",
+  "name": "Receive Application",
+  "style": "",
+  "workflow_state_name": "Receive Application"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:34:53.367877",
+  "name": "Start Screening",
+  "style": "",
+  "workflow_state_name": "Start Screening"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:35:19.467046",
+  "name": "Schedule Interview",
+  "style": "",
+  "workflow_state_name": "Schedule Interview"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:35:39.962086",
+  "name": "Conduct Interview",
+  "style": "",
+  "workflow_state_name": "Conduct Interview"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:37:17.702934",
+  "name": "Make Offer",
+  "style": "",
+  "workflow_state_name": "Make Offer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:38:55.511963",
+  "name": "Move to Application",
+  "style": "",
+  "workflow_state_name": "Move to Application"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:39:10.032756",
+  "name": "Mark as Offered",
+  "style": "",
+  "workflow_state_name": "Mark as Offered"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:39:42.249689",
+  "name": "Confirm Hire",
+  "style": "",
+  "workflow_state_name": "Confirm Hire"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 11:39:54.760673",
+  "name": "Hiered",
+  "style": "",
+  "workflow_state_name": "Hiered"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 12:01:40.135582",
+  "name": "Joining",
+  "style": "",
+  "workflow_state_name": "Joining"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 12:02:06.453584",
+  "name": "Probation",
+  "style": "",
+  "workflow_state_name": "Probation"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 12:02:45.918501",
+  "name": "Confirmation",
+  "style": "",
+  "workflow_state_name": "Confirmation"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-30 12:03:34.108879",
+  "name": "Exit",
+  "style": "",
+  "workflow_state_name": "Exit"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-07-18 16:21:30.539555",
+  "name": "Pending for Recruiter review",
+  "style": "",
+  "workflow_state_name": "Pending for Recruiter review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-07-18 16:21:50.739437",
+  "name": "Approved by Management",
+  "style": "",
+  "workflow_state_name": "Approved by Management"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-26 16:02:37.551292",
+  "name": "Pending for Review",
+  "style": "",
+  "workflow_state_name": "Pending for Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-07-18 16:21:37.128826",
+  "name": "Pending for Managment Approval",
+  "style": "",
+  "workflow_state_name": "Pending for Managment Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-04-02 15:07:19.882170",
+  "name": "Cancelled",
+  "style": "",
+  "workflow_state_name": "Cancelled"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2025-03-18 10:45:12.119551",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-26 16:02:07.137284",
+  "name": "Pending for Modification",
+  "style": "",
+  "workflow_state_name": "Pending for Modification"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-04-02 15:01:55.227313",
+  "name": "Pending for Approval L2",
+  "style": "",
+  "workflow_state_name": "Pending for Approval L2"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-04-02 15:01:40.188644",
+  "name": "Pending for Approval L1",
+  "style": "",
+  "workflow_state_name": "Pending for Approval L1"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-26 16:01:58.390730",
+  "name": "Pending for Approval",
+  "style": "",
+  "workflow_state_name": "Pending for Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2025-03-18 10:45:12.117980",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-26 15:58:35.485151",
+  "name": "Draft",
+  "style": "",
+  "workflow_state_name": "Draft"
+ }
+]
