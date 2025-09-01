@@ -1,26 +1,21 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:employee",
- "creation": "2025-08-30 12:49:06.460463",
+ "creation": "2025-09-01 11:47:38.727509",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_2m0y",
+  "section_break_lbjj",
   "amended_from",
   "employee",
-  "structure_name",
-  "column_break_oobt",
-  "effective_from",
-  "status",
-  "section_break_xbeh",
-  "custom_salary_component",
-  "section_break_vmgb",
-  "net_pay"
+  "name1",
+  "net_pay",
+  "section_break_ntjg",
+  "custom_salary_component"
  ],
  "fields": [
   {
-   "fieldname": "section_break_2m0y",
+   "fieldname": "section_break_lbjj",
    "fieldtype": "Section Break"
   },
   {
@@ -37,60 +32,40 @@
    "fieldname": "employee",
    "fieldtype": "Link",
    "label": "Employee",
-   "options": "Custom Employee",
-   "unique": 1
+   "options": "Custom Employee"
   },
   {
-   "fieldname": "column_break_oobt",
-   "fieldtype": "Column Break"
+   "fetch_from": "employee.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
   },
   {
-   "fieldname": "effective_from",
-   "fieldtype": "Date",
-   "label": "Effective From"
+   "default": "0",
+   "fieldname": "net_pay",
+   "fieldtype": "Currency",
+   "label": "Net Pay",
+   "read_only": 1
   },
   {
-   "fieldname": "status",
-   "fieldtype": "Select",
-   "label": "Status",
-   "options": "\nActive\nInactive"
-  },
-  {
-   "fieldname": "section_break_xbeh",
+   "fieldname": "section_break_ntjg",
    "fieldtype": "Section Break"
   },
   {
    "fieldname": "custom_salary_component",
    "fieldtype": "Table",
    "label": "Custom Salary Component",
-   "options": "Custom Salary Detail"
-  },
-  {
-   "fieldname": "section_break_vmgb",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "net_pay",
-   "fieldtype": "Currency",
-   "label": "Net Pay ",
-   "read_only": 1
-  },
-  {
-   "fieldname": "structure_name",
-   "fieldtype": "Select",
-   "label": "Structure Name",
-   "options": "\nOld Regime Salary Structure\nNew Regime Salary Structure"
+   "options": "Custom Salary Componen"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-08-30 16:27:03.408081",
+ "modified": "2025-09-01 14:51:26.647600",
  "modified_by": "Administrator",
  "module": "Recruitment Process",
  "name": "Custom Salary Structure",
- "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

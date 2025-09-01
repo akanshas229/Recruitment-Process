@@ -1,49 +1,48 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-08-30 13:13:51.953074",
+ "creation": "2025-09-01 11:46:18.164629",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "component",
-  "amount",
-  "component_type"
+  "component_type",
+  "component_name",
+  "amount"
  ],
  "fields": [
   {
    "columns": 2,
-   "fieldname": "component",
-   "fieldtype": "Link",
+   "fieldname": "component_type",
+   "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "Component",
-   "options": "Custom Salary Component"
+   "label": "Component Type",
+   "options": "\nEarning\nDeduction"
   },
   {
    "columns": 2,
-   "fetch_from": "component.amount",
+   "fieldname": "component_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Component Name",
+   "options": "\nBasic\nHRA\nSpecial Allowance\nPF\nProfessional Tax"
+  },
+  {
+   "columns": 2,
    "fieldname": "amount",
    "fieldtype": "Currency",
    "in_list_view": 1,
    "label": "Amount"
-  },
-  {
-   "columns": 2,
-   "fetch_from": "component.component_type",
-   "fieldname": "component_type",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Component Type"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-08-30 13:22:46.990781",
+ "modified": "2025-09-01 12:26:05.061706",
  "modified_by": "Administrator",
  "module": "Recruitment Process",
- "name": "Custom Salary Detail",
+ "name": "Custom Salary Componen",
  "owner": "Administrator",
  "permissions": [],
  "row_format": "Dynamic",

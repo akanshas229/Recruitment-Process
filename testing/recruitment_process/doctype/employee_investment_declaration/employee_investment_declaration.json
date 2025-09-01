@@ -7,7 +7,13 @@
  "field_order": [
   "section_break_onyl",
   "amended_from",
-  "test"
+  "employee",
+  "section_80c",
+  "section_80d",
+  "other_exemptions",
+  "total_investment",
+  "section_break_qoag",
+  "custom_salary_component"
  ],
  "fields": [
   {
@@ -25,16 +31,47 @@
    "search_index": 1
   },
   {
-   "fieldname": "test",
-   "fieldtype": "Data",
-   "label": "test"
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Custom Employee"
+  },
+  {
+   "fieldname": "section_80c",
+   "fieldtype": "Currency",
+   "label": "Section 80C (LIC/PPF/ELSS etc.)"
+  },
+  {
+   "fieldname": "section_80d",
+   "fieldtype": "Currency",
+   "label": "Section 80D (Medical Insurance)"
+  },
+  {
+   "fieldname": "other_exemptions",
+   "fieldtype": "Currency",
+   "label": "Other Exemptions"
+  },
+  {
+   "fieldname": "total_investment",
+   "fieldtype": "Currency",
+   "label": "Total Investment"
+  },
+  {
+   "fieldname": "section_break_qoag",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "custom_salary_component",
+   "fieldtype": "Table",
+   "label": "Custom Salary Component",
+   "options": "Custom Salary Componen"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-08-30 10:48:40.393406",
+ "modified": "2025-09-01 15:53:19.291333",
  "modified_by": "Administrator",
  "module": "Recruitment Process",
  "name": "Employee Investment Declaration",

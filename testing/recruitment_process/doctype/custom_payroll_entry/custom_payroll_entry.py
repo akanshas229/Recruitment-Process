@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class CustomSalaryDetail(Document):
+class CustomPayrollEntry(Document):
 	pass

@@ -1,18 +1,23 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-08-30 16:08:45.742632",
+ "creation": "2025-09-01 11:50:53.147280",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_mtnb",
+  "section_break_kxr0",
   "amended_from",
   "employee",
-  "salary_structure"
+  "investment_declaration",
+  "column_break_sgpv",
+  "net_pay",
+  "custom_salary_structure",
+  "section_break_ixln",
+  "custom_salary_component"
  ],
  "fields": [
   {
-   "fieldname": "section_break_mtnb",
+   "fieldname": "section_break_kxr0",
    "fieldtype": "Section Break"
   },
   {
@@ -32,17 +37,44 @@
    "options": "Custom Employee"
   },
   {
-   "fieldname": "salary_structure",
+   "fieldname": "column_break_sgpv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "net_pay",
+   "fieldtype": "Currency",
+   "label": "Net Pay",
+   "read_only": 1
+  },
+  {
+   "fieldname": "custom_salary_structure",
    "fieldtype": "Link",
-   "label": "Salary Structure",
+   "label": "Custom Salary Structure",
    "options": "Custom Salary Structure"
+  },
+  {
+   "fieldname": "section_break_ixln",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "custom_salary_component",
+   "fieldtype": "Table",
+   "label": "Custom Salary Component",
+   "options": "Custom Salary Componen"
+  },
+  {
+   "fieldname": "investment_declaration",
+   "fieldtype": "Link",
+   "label": "Investment Declaration",
+   "options": "Employee Investment Declaration"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-08-30 16:11:30.626757",
+ "modified": "2025-09-01 15:56:11.563759",
  "modified_by": "Administrator",
  "module": "Recruitment Process",
  "name": "Custom Salary Slip",

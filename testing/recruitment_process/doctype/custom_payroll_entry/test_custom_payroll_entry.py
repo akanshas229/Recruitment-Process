@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestCustomStructure(FrappeTestCase):
+class TestCustomPayrollEntry(FrappeTestCase):
 	pass
